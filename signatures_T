@@ -1,0 +1,47 @@
+rt_powd_snf(double, double)
+binary_expand_op(coder::array<double, 1>&, int const*, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<int, 1> const&, coder::array<double, 1> const&, coder::array<int, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<double, 1> const&, double, coder::array<double, 1> const&, coder::array<double, 1> const&)
+binary_expand_op(coder::array<double, 1>&, double, coder::array<double, 1> const&, coder::array<double, 1> const&, coder::array<double, 1> const&)
+c_binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&, coder::array<int, 1> const&, coder::array<double, 1> const&, coder::array<int, 1> const&, coder::array<double, 1> const&)
+f_binary_expand_op(coder::array<double, 1>&, coder::array<double, 1> const&)
+
+Eurotop_r2p_q_Final(
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    double,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    coder::array<double, 1> const&,
+    double,
+    coder::array<double, 2>&,
+    coder::array<double, 2>&,
+    coder::array<double, 2>&,
+    coder::array<double, 2>&,
+    coder::array<double, 2>&
+    )
+
+Eurotop_r2p_q_Final_terminate()
+Eurotop_r2p_q_Final_initialize()
+eml_rand_mt19937ar_stateful_init()
+coder::genrand_uint32_vector(unsigned int*, unsigned int*)
+coder::randn()
+coder::internal::ifWhileCond(coder::array<unsigned char, 1> const&)
+coder::internal::maximum(coder::array<double, 2> const&, coder::array<double, 1>&)
+coder::internal::minimum(coder::array<double, 2> const&, coder::array<double, 1>&)
+rtGetInf
+rtGetInfF
+rtGetMinusInf
+rtGetMinusInfF
+rtGetNaN
+rtGetNaNF

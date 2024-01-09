@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  testso:
+    image: python:3.9.18
+    container_name: TESTSO_DEV
+    volumes:
+      - .:/workspaces/test-so
+    # env_file:
+    #   - .devcontainer/devcontainer.ui.env
+    working_dir: /workspaces/test-so
+    tty: true
