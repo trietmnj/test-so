@@ -52,7 +52,7 @@ int main() {
               "S3_S3_S3_S3_S3_S3_dRNS0_IdLi2EEES5_S5_S5_S5_");
 
   if (!eurotop_r2p_q_Final) {
-    std::cerr << "Cannot load symbol 'myFunction': " << dlerror() << std::endl;
+    std::cerr << "Cannot load symbol: " << dlerror() << std::endl;
     dlclose(handle);
     return 1;
   }
